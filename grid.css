@@ -47,6 +47,13 @@ body {
 .row {
   display: flex;
   flex-flow: row wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.no-gutters {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .col-lg-1,
